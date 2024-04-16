@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Logo dell'app -->
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src=""
+            android:layout_weight="1"/>
+
+        <!-- Pulsante "Aggiungi Esercizio" -->
+        <!-- Pulsante "Aggiorna Scheda" -->
+        <Button
+            android:id="@+id/update_schedule_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aggiorna Scheda"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/monthly_workout_title"/>
+
+
+    </LinearLayout>
+
+    <!-- Contenuto Principale -->
+    <LinearLayout
+        android:id="@+id/main_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_layout"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <!-- Sezione "Allenamento Mensile" -->
+        <TextView
+            android:id="@+id/monthly_workout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allenamento Mensile"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <!-- Elenco degli esercizi -->
+        <!-- Puoi utilizzare RecyclerView per un elenco dinamico di esercizi -->
+
+    </LinearLayout>
+
+    <!-- Footer -->
+    <LinearLayout
+        android:id="@+id/footer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Link alle impostazioni -->
+        <TextView
+            android:id="@+id/settings_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Impostazioni"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"/>
+
+        <!-- Informazioni sull'app e contatti -->
+        <TextView
+            android:id="@+id/app_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Antonio Ruta & Michele Letterese - Contattaci: info@fitnessmanager.com"
+            android:textAlignment="center"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

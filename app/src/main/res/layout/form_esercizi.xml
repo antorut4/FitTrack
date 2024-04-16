@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AggiornaScheda">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aggiorna scheda"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Lunedì -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunedì"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/monday_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Esercizi di Lunedì"
+        android:inputType="textMultiLine"
+        android:minLines="3"/>
+
+    <EditText
+        android:id="@+id/monday_muscle_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gruppi Muscolari di Lunedì"/>
+
+    <!-- Mercoledì -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercoledì"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/wednesday_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Esercizi di Mercoledì"
+        android:inputType="textMultiLine"
+        android:minLines="3"/>
+
+    <EditText
+        android:id="@+id/wednesday_muscle_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gruppi Muscolari di Mercoledì"/>
+
+    <!-- Venerdì -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venerdì"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/friday_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Esercizi di Venerdì"
+        android:inputType="textMultiLine"
+        android:minLines="3"/>
+
+    <EditText
+        android:id="@+id/friday_muscle_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gruppi Muscolari di Venerdì"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salva"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
