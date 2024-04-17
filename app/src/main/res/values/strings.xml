@@ -1,3 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FitTrack</string>
+	<!-- android_large___1 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="sign_up_string">STORICO ALLENAMENTI</string>
+	<string name="sign_up_ek1_string">INIZIA ALLENAMENTO</string>
+	<string name="february_2021_string">February 2021</string>
+	<string name="mon_string">MON</string>
+	<string name="_1_string">1</string>
+	<string name="_8_string">8</string>
+	<string name="_15_string">15</string>
+	<string name="_22_string">22</string>
+	<string name="_29_string">29</string>
+	<string name="tue_string">TUE</string>
+	<string name="_2_string">2</string>
+	<string name="_9_string">9</string>
+	<string name="_16_string">16</string>
+	<string name="_23_string">23</string>
+	<string name="_30_string">30</string>
+	<string name="wed_string">WED</string>
+	<string name="_3_string">3</string>
+	<string name="_10_string">10</string>
+	<string name="_17_string">17</string>
+	<string name="_24_string">24</string>
+	<string name="_31_string">31</string>
+	<string name="thu_string">THU</string>
+	<string name="_4_string">4</string>
+	<string name="_11_string">11</string>
+	<string name="_18_string">18</string>
+	<string name="_25_string">25</string>
+	<string name="_1_ek1_string">1</string>
+	<string name="fri_string">FRI</string>
+	<string name="_5_string">5</string>
+	<string name="_12_string">12</string>
+	<string name="_19_string">19</string>
+	<string name="_26_string">26</string>
+	<string name="_2_ek1_string">2</string>
+	<string name="sat_string">SAT</string>
+	<string name="_6_string">6</string>
+	<string name="_13_string">13</string>
+	<string name="_20_string">20</string>
+	<string name="_27_string">27</string>
+	<string name="_3_ek1_string">3</string>
+	<string name="sun_string">SUN</string>
+	<string name="_7_string">7</string>
+	<string name="_14_string">14</string>
+	<string name="_21_string">21</string>
+	<string name="_28_string">28</string>
+	<string name="_4_ek1_string">4</string>
 </resources>
